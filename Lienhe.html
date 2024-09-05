@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hoàng Vỹ">
+    <meta name="description" content="Trang chủ của tiệm sách mới Hoàng Vỹ">
+    <title>Tiệm Sách Hoàng Vỹ</title>
+</head>
+<body>
+    <header>
+    <img src="Image/hinh1.png" alt="logo">
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html#gt-ve-tiem-sach">Giới thiệu về tiệm sách</a>               
+            </li>
+            <li>
+                <a href="index.html#danh-muc-sach">Các loại sách đang bán</a>               
+            </li>
+            
+            <li>
+                <a href="thoigianmocua.html">Thời gian mở cửa</a>               
+            </li> 
+        </ul>
+    </nav>
+    <figure>
+        <figcaption>Sách mơi nhập về - Ngày 7 tháng 7 năm 2024 </figcaption>
+        <img src="Image/hinh2.png" alt="Sách mới nhập" title="Sách mới nhập" width="373" height="183">
+    </figure>
+    </header>
+    <hr> <!--Dòng kẻ ngang-->
+
+    <main >
+        <h2>Liên hệ với tiệm sách</h2>
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>
+                    Liên hệ với tiệm sách
+                </legend>
+                <p>
+                <label for="ten">Tên: </label>
+                <input type="text" name="ten" id="ten" placeholder="Tên của bạn" required > 
+                <!--reqiured là không được để dữ liệu trống-->
+                </p>
+                <p>
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" id="email" placeholder="Nhập email" required>
+                </p>
+                <p>
+                    <label for="dienthoai">Điện thoại: </label>
+                    <input type="text" name="dienthoai" id="dienthoai" placeholder="Nhập số điện thoại" required>
+                </p>
+                <p>
+                    <label for="loinhan">Lời nhắn: </label> <br>
+                    <textarea name="loinhan" id="loinhan" cols="30" rows="30" placeholder="Để lại lời nhắn ở đây"></textarea>
+                </p>
+            </fieldset>
+            <button type="submit">Gửi</button>
+            <button type="reset">Xóa</button>
+        </form>
+        <p>
+            <a href="#">Trở về trang đầu</a>
+        </p>
+    </main>
+    <footer>  <!--Thêm thông tin cho footer-->
+        <p>
+            Bản Quyền  &copy; Thuộc về Hoàng Vỹ.
+        </p>
+        <p>
+            Địa chỉ: 19/9 Phù Đổng Thiên Vương
+        </p>
+        <p>
+            Điện thoại: 0345698735
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124928.54111687874!2d108.4507227!3d11.90391085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317112fef20988b1%3A0xad5f228b672bf930!2zVHAuIMSQw6AgTOG6oXQsIEzDom0gxJDhu5NuZw!5e0!3m2!1svi!2s!4v1725504184591!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+ </footer>
+</body>
+</html>
